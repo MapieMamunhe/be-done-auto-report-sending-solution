@@ -56,7 +56,10 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-
+    'youtrack' => [
+        "token" => env('YOUTRACK_TOKEN'),
+        "url" => env('YOUTRACK_URL')
+    ],
     'asset_url' => env('ASSET_URL'),
 
     /*
